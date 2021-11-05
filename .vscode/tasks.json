@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "NPM Server",
+      "type": "npm",
+      "script": "server",
+      "problemMatcher": [],
+      "detail": "npm run server",
+      "group": "none",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "NPM Watch",
+      "type": "npm",
+      "script": "watch",
+      "problemMatcher": [],
+      "detail": "npm run watch",
+      "group": "none",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    }
+  ]
+}
