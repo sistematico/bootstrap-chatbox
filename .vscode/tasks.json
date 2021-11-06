@@ -30,6 +30,30 @@
         "reveal": "always",
         "panel": "new"
       }
+    },
+    {
+      "label": "NPM Install",
+      "type": "npm",
+      "script": "install",
+      "problemMatcher": [],
+      "detail": "npm install",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "NPM CSS Compile",
+      "type": "npm",
+      "script": "css-compile",
+      "problemMatcher": [],
+      "detail": "npm css-compile",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
     }
   ]
 }
