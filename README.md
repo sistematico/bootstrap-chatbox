@@ -12,7 +12,7 @@ The **Bootstrap npm starter** is a GitHub template repository for quickly creati
 
 Includes support for importing Bootstrap via `node_modules`, adding your own customizations, and compiling CSS and JS for production. It also includes more advanced features for streamlinoing compiled code with Purge CSS and linting CSS with GitHub Actions.
 
-[![Build Status](https://github.com/twbs/bootstrap-npm-starter/workflows/CI/badge.svg)](https://github.com/twbs/bootstrap-npm-starter/actions)
+[![Build Status](https://github.com/sistematico/bootstrap-chatbox/workflows/CI/badge.svg)](https://github.com/sistematico/bootstrap-chatbox/actions)
 
 ## What's included
 
@@ -29,7 +29,7 @@ Be sure to have [Node.js](https://nodejs.org/) installed before proceeding.
 
 ```shell
 # Clone the repo
-git clone https://github.com/twbs/bootstrap-npm-starter
+git clone https://github.com/sistematico/bootstrap-chatbox
 cd bootstrap-npm-starter
 
 # Install dependencies
