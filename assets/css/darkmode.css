@@ -1,5 +1,6 @@
 :root {
   --primary-color: #302AE6;
+  --link-color: #3d4869;
   --secondary-color: #536390;
   --font-color: #424242;
   --bg-color: #fff;
@@ -13,6 +14,7 @@
 
 [data-theme="dark"] {
   --primary-color: #9A97F3;
+  --link-color: #6274a8;
   --secondary-color: #818cab;
   --font-color: #e1e1ff;
   --bg-color: #161625;
@@ -39,7 +41,7 @@ h1,
 }
 
 a, a:hover {
-  color: var(--primary-color);
+  color: var(--link-color);
 }
 
 .dropdown-menu {
@@ -101,7 +103,7 @@ html {
 }
 
 .label {
-	background-color: #111;
+	background-color: var(--container-color);
 	border-radius: 50px;
 	cursor: pointer;
 	display: flex;
