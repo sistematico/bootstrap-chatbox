@@ -6,8 +6,7 @@
 // Option 1
 //
 // Import Bootstrap's bundle (all of Bootstrap's JS + Popper.js dependency)
-
-import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
+//import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 
 // Option 2
 //
@@ -24,5 +23,5 @@ import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 // import "../../node_modules/bootstrap/js/dist/base-component.js";
 
 // Then your specific components
-// import "../../node_modules/bootstrap/js/dist/dropdown.js";
+import "../../node_modules/bootstrap/js/dist/dropdown.js";
 // import "../../node_modules/bootstrap/js/dist/offcanvas.js";
