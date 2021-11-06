@@ -2,9 +2,9 @@
   <img src=".github/logo.png" width="350" height="350" alt="Bootstrap Chatbox">
 </p>
 
-<h3 align="center">Bootstrap npm starter template</h3>
+<h3 align="center">Bootstrap Chatbox Template</h3>
 
-<p align="center">Create new Bootstrap-powered npm projects in no time.</p>
+<p align="center">Chatbox template using Twitter Bootstrap 5</p>
 
 ## About
 
