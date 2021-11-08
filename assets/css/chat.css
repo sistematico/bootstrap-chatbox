@@ -2,14 +2,30 @@ body {
     transition: background 0.2s linear;
 }
 
+main {
+    width: auto;
+    max-width: 920px;
+    padding: 0 15px;
+    border-radius: 10px;
+    overflow-y: scroll
+}
+
 .chat-container {
     border-radius: 10px;
+}
+
+.chat-messages-container {
+    height: 100vh;
+    scrollbar-color: #d4aa70 transparent;
+    scrollbar-width: thin;
+    /* overflow-y: scroll */
 }
 
 .chat-messages {
     display: flex;
     flex-direction: column;
-    max-height: 800px;
+    height: 100%;
+    /* max-height: 100%; */
     overflow-y: scroll
 }
 
@@ -26,6 +42,10 @@ body {
 .own {
     flex-direction: row-reverse;
     margin-left: auto
+}
+
+.opt {
+    display: none;
 }
 
 .position-relative {

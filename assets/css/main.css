@@ -1,0 +1,102 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #161625;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, h7,
+.text-dark {
+  color: #818cab !important;
+}
+
+a {
+    color: #6274a8;
+    text-decoration: none;
+    transition: all linear 0.3s;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.main-container > .card {
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #1e1e33;
+}
+  
+.card-body {
+    flex: 1 0 auto;
+    overflow-y: auto !important;
+}
+
+.card-header, .card-footer {
+    background-color: transparent;    
+}
+
+.message {
+    color: #e1e1ff;
+    background-color: #262640 !important;
+}
+
+.other,
+.own {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.other {
+    margin-right: auto
+}
+
+.own {
+    flex-direction: row-reverse;
+    margin-left: auto
+}
+
+.form-control,
+.form-control:focus {
+    color: #e1e1ff;
+    background-color: #262640;
+    border-color: #262640;
+}
+
+.custom-border-top {
+    border-top: 2px solid #262640 !important;
+}
+
+.custom-border-bottom {
+    border-bottom: 2px solid #262640 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #262640;
+    border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #d4aa70;
+}
