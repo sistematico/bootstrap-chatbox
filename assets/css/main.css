@@ -1,13 +1,5 @@
-html,
 body {
-  height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    background-color: #161625;
-    color: #fff;
+    background-color: #161625;    
 }
 
 h1, h2, h3, h4, h5, h6, h7,
@@ -25,19 +17,12 @@ a:hover {
     color: #fff;
 }
 
-.main-container > .card {
-    height: 100%;
-}
-
 .card {
-    display: flex;
-    flex-direction: column;
     border-radius: 10px;
     background-color: #1e1e33;
 }
   
 .card-body {
-    flex: 1 0 auto;
     overflow-y: auto !important;
 }
 
