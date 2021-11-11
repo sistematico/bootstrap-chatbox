@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
 </head>
-<body class="d-flex flex-column">
-    <header class="flex-shrink-1">
+<body>
+    <header>
         <div class="container d-flex align-items-center justify-content-between p-3 mb-3 custom-border-bottom">
             <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
                 <img class="logo" src="assets/img/logo-purple.svg" alt="Bootstrap Chatbox" height="40" style="margin-top: 8px;">
@@ -33,160 +33,161 @@
             </div>
         </div>
     </header>
-    <main class="flex-grow-0 d-flex flex-column">                
-        <div class="card d-flex flex-column">
-            <div class="card-header">
-                <h3>Chat</h3>
-            </div>
-            <div class="card-body flex-fill" id="messages">
-
-                <div class="own pb-4">
-                    <div class="ms-2">
-                        <img src="assets/img/users/eddie.jpg" class="rounded-circle me-1" alt="Eddie Murphy" width="40" height="40" />
-                        <div class="text-muted small text-nowrap mt-2">2:33 am</div>
-                    </div>
-                    <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3 message">
-                        <div class="font-weight-bold mb-1">You</div>
-                        Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
-                    </div>
+    <main>
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Chat</h3>
                 </div>
+                <div class="card-body" id="messages">
 
+                    <div class="own pb-4">
+                        <div class="ms-2">
+                            <img src="assets/img/users/eddie.jpg" class="rounded-circle me-1" alt="Eddie Murphy" width="40" height="40" />
+                            <div class="text-muted small text-nowrap mt-2">2:33 am</div>
+                        </div>
+                        <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3 message">
+                            <div class="font-weight-bold mb-1">You</div>
+                            Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
+                        </div>
+                    </div>
 
-                <div class="other pb-4">
-                    <div class="me-2">
-                        <img src="assets/img/users/jim.jpg" class="rounded-circle me-1" alt="Jim Carrey" width="40" height="40" />
-                        <div class="text-muted small text-nowrap mt-2">2:34 am</div>
+                    <div class="other pb-4">
+                        <div class="me-2">
+                            <img src="assets/img/users/jim.jpg" class="rounded-circle me-1" alt="Jim Carrey" width="40" height="40" />
+                            <div class="text-muted small text-nowrap mt-2">2:34 am</div>
+                        </div>
+                        <div class="flex-shrink-1 bg-light rounded py-2 px-3 message">
+                            <div class="font-weight-bold mb-1">Jim Carrey</div>
+                            Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
+                        </div>
                     </div>
-                    <div class="flex-shrink-1 bg-light rounded py-2 px-3 message">
-                        <div class="font-weight-bold mb-1">Jim Carrey</div>
-                        Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
+    <!-- 
+                    <div class="own pb-4">
+                        <div class="ms-2">
+                            <img src="assets/img/users/eddie.jpg" class="rounded-circle me-1" alt="Eddie Murphy" width="40" height="40" />
+                            <div class="text-muted small text-nowrap mt-2">2:33 am</div>
+                        </div>
+                        <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3 message">
+                            <div class="font-weight-bold mb-1">You</div>
+                            Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
+                        </div>
                     </div>
+
+                    <div class="other pb-4">
+                        <div class="me-2">
+                            <img src="assets/img/users/jim.jpg" class="rounded-circle me-1" alt="Jim Carrey" width="40" height="40" />
+                            <div class="text-muted small text-nowrap mt-2">2:34 am</div>
+                        </div>
+                        <div class="flex-shrink-1 bg-light rounded py-2 px-3 message">
+                            <div class="font-weight-bold mb-1">Jim Carrey</div>
+                            Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
+                        </div>
+                    </div>
+
+                    <div class="other pb-4">
+                        <div class="me-2">
+                            <img src="assets/img/users/jim.jpg" class="rounded-circle me-1" alt="Jim Carrey" width="40" height="40" />
+                            <div class="text-muted small text-nowrap mt-2">2:34 am</div>
+                        </div>
+                        <div class="flex-shrink-1 bg-light rounded py-2 px-3 message">
+                            <div class="font-weight-bold mb-1">Jim Carrey</div>
+                            Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
+                        </div>
+                    </div>
+
+                    <div class="own pb-4">
+                        <div class="ms-2">
+                            <img src="assets/img/users/eddie.jpg" class="rounded-circle me-1" alt="Eddie Murphy" width="40" height="40" />
+                            <div class="text-muted small text-nowrap mt-2">2:33 am</div>
+                        </div>
+                        <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3 message">
+                            <div class="font-weight-bold mb-1">You</div>
+                            Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
+                        </div>
+                    </div>
+
+                    <div class="other pb-4">
+                        <div class="me-2">
+                            <img src="assets/img/users/jim.jpg" class="rounded-circle me-1" alt="Jim Carrey" width="40" height="40" />
+                            <div class="text-muted small text-nowrap mt-2">2:34 am</div>
+                        </div>
+                        <div class="flex-shrink-1 bg-light rounded py-2 px-3 message">
+                            <div class="font-weight-bold mb-1">Jim Carrey</div>
+                            Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
+                        </div>
+                    </div>
+
+                    <div class="own pb-4">
+                        <div class="ms-2">
+                            <img src="assets/img/users/eddie.jpg" class="rounded-circle me-1" alt="Eddie Murphy" width="40" height="40" />
+                            <div class="text-muted small text-nowrap mt-2">2:33 am</div>
+                        </div>
+                        <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3 message">
+                            <div class="font-weight-bold mb-1">You</div>
+                            Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
+                        </div>
+                    </div>
+
+                    <div class="other pb-4">
+                        <div class="me-2">
+                            <img src="assets/img/users/jim.jpg" class="rounded-circle me-1" alt="Jim Carrey" width="40" height="40" />
+                            <div class="text-muted small text-nowrap mt-2">2:34 am</div>
+                        </div>
+                        <div class="flex-shrink-1 bg-light rounded py-2 px-3 message">
+                            <div class="font-weight-bold mb-1">Jim Carrey</div>
+                            Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
+                        </div>
+                    </div>
+
+                    <div class="own pb-4">
+                        <div class="ms-2">
+                            <img src="assets/img/users/eddie.jpg" class="rounded-circle me-1" alt="Eddie Murphy" width="40" height="40" />
+                            <div class="text-muted small text-nowrap mt-2">2:33 am</div>
+                        </div>
+                        <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3 message">
+                            <div class="font-weight-bold mb-1">You</div>
+                            Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
+                        </div>
+                    </div>
+
+                    <div class="other pb-4">
+                        <div class="me-2">
+                            <img src="assets/img/users/jim.jpg" class="rounded-circle me-1" alt="Jim Carrey" width="40" height="40" />
+                            <div class="text-muted small text-nowrap mt-2">2:34 am</div>
+                        </div>
+                        <div class="flex-shrink-1 bg-light rounded py-2 px-3 message">
+                            <div class="font-weight-bold mb-1">Jim Carrey</div>
+                            Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
+                        </div>
+                    </div>
+
+                    <div class="own pb-4">
+                        <div class="ms-2">
+                            <img src="assets/img/users/eddie.jpg" class="rounded-circle me-1" alt="Eddie Murphy" width="40" height="40" />
+                            <div class="text-muted small text-nowrap mt-2">2:33 am</div>
+                        </div>
+                        <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3 message">
+                            <div class="font-weight-bold mb-1">You</div>
+                            Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
+                        </div>
+                    </div> -->
+
                 </div>
-<!-- 
-                <div class="own pb-4">
-                    <div class="ms-2">
-                        <img src="assets/img/users/eddie.jpg" class="rounded-circle me-1" alt="Eddie Murphy" width="40" height="40" />
-                        <div class="text-muted small text-nowrap mt-2">2:33 am</div>
+                <div class="card-footer">
+                    <div class="input-group">
+                        <input type="text" class="form-control shadow-none" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-primary shadow-none border-0" type="button" id="button-addon2" style="background-color: #9A97F3">Send</button>
                     </div>
-                    <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3 message">
-                        <div class="font-weight-bold mb-1">You</div>
-                        Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
-                    </div>
-                </div>
-
-                <div class="other pb-4">
-                    <div class="me-2">
-                        <img src="assets/img/users/jim.jpg" class="rounded-circle me-1" alt="Jim Carrey" width="40" height="40" />
-                        <div class="text-muted small text-nowrap mt-2">2:34 am</div>
-                    </div>
-                    <div class="flex-shrink-1 bg-light rounded py-2 px-3 message">
-                        <div class="font-weight-bold mb-1">Jim Carrey</div>
-                        Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
-                    </div>
-                </div>
-
-                <div class="other pb-4">
-                    <div class="me-2">
-                        <img src="assets/img/users/jim.jpg" class="rounded-circle me-1" alt="Jim Carrey" width="40" height="40" />
-                        <div class="text-muted small text-nowrap mt-2">2:34 am</div>
-                    </div>
-                    <div class="flex-shrink-1 bg-light rounded py-2 px-3 message">
-                        <div class="font-weight-bold mb-1">Jim Carrey</div>
-                        Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
-                    </div>
-                </div>
-
-                <div class="own pb-4">
-                    <div class="ms-2">
-                        <img src="assets/img/users/eddie.jpg" class="rounded-circle me-1" alt="Eddie Murphy" width="40" height="40" />
-                        <div class="text-muted small text-nowrap mt-2">2:33 am</div>
-                    </div>
-                    <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3 message">
-                        <div class="font-weight-bold mb-1">You</div>
-                        Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
-                    </div>
-                </div>
-
-                <div class="other pb-4">
-                    <div class="me-2">
-                        <img src="assets/img/users/jim.jpg" class="rounded-circle me-1" alt="Jim Carrey" width="40" height="40" />
-                        <div class="text-muted small text-nowrap mt-2">2:34 am</div>
-                    </div>
-                    <div class="flex-shrink-1 bg-light rounded py-2 px-3 message">
-                        <div class="font-weight-bold mb-1">Jim Carrey</div>
-                        Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
-                    </div>
-                </div>
-
-                <div class="own pb-4">
-                    <div class="ms-2">
-                        <img src="assets/img/users/eddie.jpg" class="rounded-circle me-1" alt="Eddie Murphy" width="40" height="40" />
-                        <div class="text-muted small text-nowrap mt-2">2:33 am</div>
-                    </div>
-                    <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3 message">
-                        <div class="font-weight-bold mb-1">You</div>
-                        Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
-                    </div>
-                </div>
-
-                <div class="other pb-4">
-                    <div class="me-2">
-                        <img src="assets/img/users/jim.jpg" class="rounded-circle me-1" alt="Jim Carrey" width="40" height="40" />
-                        <div class="text-muted small text-nowrap mt-2">2:34 am</div>
-                    </div>
-                    <div class="flex-shrink-1 bg-light rounded py-2 px-3 message">
-                        <div class="font-weight-bold mb-1">Jim Carrey</div>
-                        Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
-                    </div>
-                </div>
-
-                <div class="own pb-4">
-                    <div class="ms-2">
-                        <img src="assets/img/users/eddie.jpg" class="rounded-circle me-1" alt="Eddie Murphy" width="40" height="40" />
-                        <div class="text-muted small text-nowrap mt-2">2:33 am</div>
-                    </div>
-                    <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3 message">
-                        <div class="font-weight-bold mb-1">You</div>
-                        Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
-                    </div>
-                </div>
-
-                <div class="other pb-4">
-                    <div class="me-2">
-                        <img src="assets/img/users/jim.jpg" class="rounded-circle me-1" alt="Jim Carrey" width="40" height="40" />
-                        <div class="text-muted small text-nowrap mt-2">2:34 am</div>
-                    </div>
-                    <div class="flex-shrink-1 bg-light rounded py-2 px-3 message">
-                        <div class="font-weight-bold mb-1">Jim Carrey</div>
-                        Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
-                    </div>
-                </div>
-
-                <div class="own pb-4">
-                    <div class="ms-2">
-                        <img src="assets/img/users/eddie.jpg" class="rounded-circle me-1" alt="Eddie Murphy" width="40" height="40" />
-                        <div class="text-muted small text-nowrap mt-2">2:33 am</div>
-                    </div>
-                    <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3 message">
-                        <div class="font-weight-bold mb-1">You</div>
-                        Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
-                    </div>
-                </div> -->
-
-            </div>
-            <div class="card-footer">
-                <div class="input-group">
-                    <input type="text" class="form-control shadow-none" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button class="btn btn-primary shadow-none border-0" type="button" id="button-addon2" style="background-color: #9A97F3">Send</button>
                 </div>
             </div>
         </div>
     </main>
-    <!-- <footer class="mt-auto text-muted">
+    <footer>
         <div class="container custom-border-top my-3 pt-3">
             Created with ❤️ by <a href="https://lucasbrum.net" target="_blank">Lucas S. Brum</a>
         </div>
-    </footer> -->
+    </footer>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script>
         const divs = {

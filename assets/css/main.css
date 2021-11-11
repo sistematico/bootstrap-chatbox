@@ -1,5 +1,13 @@
-body {
-    background-color: #161625;    
+body { background-color: #161625; }
+
+.card {
+    border-radius: 10px;
+    background-color: #1e1e33;
+}
+
+.card-body {
+    /* overflow-y: scroll; */
+    /* overflow-y: auto !important; */
 }
 
 h1, h2, h3, h4, h5, h6, h7,
@@ -15,15 +23,6 @@ a {
 
 a:hover {
     color: #fff;
-}
-
-.card {
-    border-radius: 10px;
-    background-color: #1e1e33;
-}
-  
-.card-body {
-    overflow-y: auto !important;
 }
 
 .card-header, .card-footer {
